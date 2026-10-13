@@ -35,7 +35,7 @@ Inside the panel:
 
 ## Receiving files
 
-Incoming Taildrop files are saved to `~/Downloads` by the `omarchy-tailscale-receive` service, which announces each one with a notification (an image preview when the file is an image, and a click to open it). The Tailscale service install enables it; `omarchy tailscale receive` runs the same loop by hand. The panel switch enables and starts the receiver, or stops and disables it, through the user's systemd service.
+Incoming Taildrop files are saved to your downloads folder (`~/Downloads` by default) by the `omarchy-tailscale-receive` service, which announces each one with a notification (an image preview when the file is an image, and a click to open it). The Tailscale service install enables it; `omarchy tailscale receive` runs the same loop by hand. The panel switch enables and starts the receiver, or stops and disables it, through the user's systemd service.
 
 ## Icon
 

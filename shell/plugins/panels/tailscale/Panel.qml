@@ -531,7 +531,7 @@ Panel {
 
               Text {
                 textFormat: Text.PlainText
-                text: tailscale.receiverActive ? "New files go to Downloads" : "Files wait until you collect them"
+                text: tailscale.receiverActive ? "New files are saved automatically" : "Files wait until you collect them"
                 color: root.dim
                 font.family: root.fontFamily
                 font.pixelSize: Style.font.bodySmall
